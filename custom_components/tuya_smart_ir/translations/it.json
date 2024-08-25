@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "infrared_id": "Infrared ID",
+          "device_id": "Device ID",
+          "name": "Nome dispositivo"
+        },
+        "description": "Configurazione",
+        "title": "Tuya Smart IR"
+      }
+    },
+    "error": {
+      "connection": "Impossibile connettersi al dispositivo. Può trattarsi di un problema temporaneo, oppure le informazioni fornite potrebbero non essere corrette."
+    },
+    "abort": {
+      "credentials": "Prima di proseguire, è necessario aggiungere l'integrazione nel configuration.yaml (leggi il readme)."
+    }
+  },
+  "exceptions": {
+    "device_error_send_command": {
+      "message": "Impossibile inviare il comando"
+    }
+  }
+}

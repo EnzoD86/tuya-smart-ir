@@ -1,0 +1,12 @@
+{
+   "domain": "tuya_smart_ir",
+   "name": "Tuya Smart IR",
+   "codeowners": ["@EnzoD86"],
+   "config_flow": true,
+   "documentation": "https://github.com/EnzoD86/tuya-smart-ir",
+   "integration_type": "device",
+   "iot_class": "cloud_polling",
+   "issue_tracker": "https://github.com/EnzoD86/tuya-smart-ir/issues",
+   "requirements": ["tuya-connector-python==0.1.2"],
+   "version": "2024.9.1"
+}
